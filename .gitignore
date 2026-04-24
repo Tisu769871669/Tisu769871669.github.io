@@ -1,0 +1,11 @@
+node_modules
+dist
+.env
+.env.*
+*.local
+*.tsbuildinfo
+coverage
+.playwright-cli
+.visual-check
+*.config.js
+*.config.d.ts
