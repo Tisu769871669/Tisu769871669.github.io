@@ -19,6 +19,7 @@ import researchBoundariesRaw from '../content/posts/research-contribution-bounda
 import tushareApiRaw from '../content/posts/tushare-data-api-indexing.mdx?raw'
 import notesSiteDesignRaw from '../content/posts/notes-site-design-and-tech-stack.mdx?raw'
 import guiyangOpsRaw from '../content/posts/guiyang-ops-disaster-recovery-notes.mdx?raw'
+import agentPoolInfraRaw from '../content/posts/agent-pool-customer-service-infra.mdx?raw'
 
 export type Visibility = 'public' | 'draft'
 
@@ -231,7 +232,8 @@ export const postSources: PostSource[] = [
   { slug: 'research-contribution-boundaries', raw: researchBoundariesRaw },
   { slug: 'tushare-data-api-indexing', raw: tushareApiRaw },
   { slug: 'notes-site-design-and-tech-stack', raw: notesSiteDesignRaw },
-  { slug: 'guiyang-ops-disaster-recovery-notes', raw: guiyangOpsRaw }
+  { slug: 'guiyang-ops-disaster-recovery-notes', raw: guiyangOpsRaw },
+  { slug: 'agent-pool-customer-service-infra', raw: agentPoolInfraRaw }
 ]
 
 export const posts: Post[] = postSources
